@@ -30,7 +30,7 @@ if [ $(uname -s) = 'Darwin' ]; then
 fi
 
 
-git config --global user.email "junhyeokahn91@gmail.com"
-git config --global user.name "junhyeokahn"
+#git config --global user.email "junhyeokahn91@gmail.com"
+#git config --global user.name "junhyeokahn"
 
 source ./install-vim
