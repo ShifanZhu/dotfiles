@@ -146,6 +146,7 @@ let g:vimtex_view_method='skim'
 " 5. Filetype
 au BufNewFile,BufRead *.txt set filetype=journal
 au BufNewFile,BufRead CMakeLists.txt set filetype=cmake
+au BufNewFile,BufRead *.urdf set filetype=xml
 
 " 6. Grammarous
 let g:grammarous#default_comments_only_filetypes = {
