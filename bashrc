@@ -58,3 +58,4 @@ deac() {
 }
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+setxkbmap -option ctrl:nocaps

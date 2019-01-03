@@ -6,7 +6,7 @@
 """""""""""""""""""
 " General Setting "
 """""""""""""""""""
-set enc=utf-8
+set enc=utf-8 
 set fenc=utf-8
 set termencoding=utf-8
 set nocompatible
@@ -44,6 +44,7 @@ set clipboard=unnamed
 let mapleader=','
 let maplocalleader=','
 nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
+nnoremap <Leader>e :e %:h
 nnoremap <silent> <F5> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
 
 """""""""""
