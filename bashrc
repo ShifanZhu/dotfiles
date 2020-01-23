@@ -4,7 +4,7 @@
 ############################################
 alias vi='vim'
 
-if [ -n "$TMUX_PANE" ]; then
+#if [ -n "$TMUX_PANE" ]; then
   # https://github.com/wellle/tmux-complete.vim
   fzf_tmux_words() {
     tmuxwords.rb --all --scroll 500 --min 5 | fzf-down --multi | paste -sd" " -
@@ -33,9 +33,9 @@ if [ -n "$TMUX_PANE" ]; then
   # Bind CTRL-X-CTRL-T to tmuxwords.sh
   bind '"\C-x\C-t": "$(fzf_tmux_words)\e\C-e\er"'
 
-elif [ -d ~/dotfiles/iTerm2-Color-Schemes/ ]; then
-  ~/dotfiles/iTerm2-Color-Schemes/tools/preview.rb ~/.vim/plugged/seoul256.vim/iterm2/seoul256.itermcolors
-fi
+#elif [ -d ~/dotfiles/iTerm2-Color-Schemes/ ]; then
+  #~/dotfiles/iTerm2-Color-Schemes/tools/preview.rb ~/.vim/plugged/seoul256.vim/iterm2/seoul256.itermcolors
+#fi
 
 ccmake() {
   CXX="$HOME/dotfiles/clang/cc_args.py clang++" cmake ..
