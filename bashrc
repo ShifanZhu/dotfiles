@@ -31,7 +31,7 @@ alias vi='vim'
   }
 
   # Bind CTRL-X-CTRL-T to tmuxwords.sh
-  bind '"\C-x\C-t": "$(fzf_tmux_words)\e\C-e\er"'
+  #bind '"\C-x\C-t": "$(fzf_tmux_words)\e\C-e\er"'
 
 #elif [ -d ~/dotfiles/iTerm2-Color-Schemes/ ]; then
   #~/dotfiles/iTerm2-Color-Schemes/tools/preview.rb ~/.vim/plugged/seoul256.vim/iterm2/seoul256.itermcolors
